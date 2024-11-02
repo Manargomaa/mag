@@ -1,0 +1,78 @@
+.footer-section{
+  width: 100% !important;
+  font-family:   "Inter", sans-serif, "Ysabeau SC";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px !important;
+}
+
+.footer-header{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.subscribe-footer-title{
+  font-size: 25px;
+  color: #F97E01;
+  vertical-align: middle !important;
+  margin: 0px ;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.subscribe-footer-title span{
+  font-weight: bolder;
+}
+
+.footer-subscribe-form{
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #D9D9D9;
+  cursor: pointer;
+}
+.footer-subscribe-form:active{
+  outline: none;
+}
+
+.subscribe-btn {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px !important;
+  background-color: #F97E01;
+  color: #fff;
+}
+
+.footer-body{
+  color: #FAFAFA;
+}
+
+.logo-title{
+  padding-bottom: 24px !important;
+  font-size: 24px;
+  font-weight: bold;
+}
+.text-light{
+  color: #D9D9D9 !important;
+}
+
+
+.footer-subscribe-body{
+  border: 1.5px solid #FAFAFA !important;
+  width: 170px;
+  margin-left: 2px;
+  padding:0px 5px;
+}
+@media screen and (max-width: 600px) {
+  .footer-header {
+    flex-direction: column;
+  }
+  .subscribe-footer-title{
+    font-size: 18px;
+    padding: 0px !important;
+    margin: 0px !important;
+    padding-bottom: 10px !important;
+  }
+}

@@ -1,0 +1,31 @@
+.navigation-content{
+ background-color: #000;
+ color: #fff;
+ text-align: center;
+ padding: 20px; 
+ vertical-align: middle;
+ margin: auto;
+}
+.navigation-title{
+  font-size: 14px;
+  font-weight: 400;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  margin-bottom: 0;
+  color: #fff !important;
+}
+.navigation-link {
+  text-decoration: underline;
+}
+.navigation-link a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 600px) {
+  .navigation-title{
+    font-size: 12px;
+  }
+}

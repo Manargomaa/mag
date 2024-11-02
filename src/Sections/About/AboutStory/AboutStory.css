@@ -1,0 +1,75 @@
+/* AboutStory.css */
+.about-content {
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+.about-content-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-home-text {
+  margin-top: 50px;
+  text-align: justify;
+  letter-spacing: -0.5px;
+}
+
+.about-home-title {
+  font-size: 3.0rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-home-title span {
+  color: #289402;
+}
+
+.about-home-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.about-home-btn {
+  padding: 10px 20px;
+  background-color: #F97E01;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.about-home-image {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+.about-home-image img {
+  max-width: 100%;
+  height: auto;
+}
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+  .about-content {
+    margin-top: 20px;
+  }
+  
+  .about-home-text {
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .about-home-title {
+    font-size: 2rem;
+  }
+
+  .about-home-description {
+    font-size: 0.9rem;
+  }
+
+  .about-home-image {
+    justify-content: center;
+    margin-top: 15px;
+  }
+}
+ 
